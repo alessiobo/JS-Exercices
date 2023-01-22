@@ -14,7 +14,7 @@ const notes = [
   {
     id: 1,
     description: "Workout program",
-    todos: [
+    todo: [
       {
         id: 1,
         name: "Push ups - 10 x 3",
@@ -35,7 +35,7 @@ const notes = [
   {
     id: 2,
     description: "Front-end Roadmap",
-    todos: [
+    todo: [
       {
         id: 1,
         name: "Learn HTML",
@@ -61,3 +61,4 @@ const notes = [
 ];
 
 uncompletedNotes(notes);
+console.log(uncompletedNotes(notes));
